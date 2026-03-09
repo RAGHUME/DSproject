@@ -1,0 +1,14 @@
+streamlit
+sentence-transformers
+transformers
+chromadb
+groq
+pandas
+Pillow
+requests
+duckduckgo-search
+scikit-learn
+torch
+torchvision
+numpy
+tqdm
