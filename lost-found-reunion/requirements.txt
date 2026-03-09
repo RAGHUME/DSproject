@@ -2,14 +2,13 @@ streamlit
 sentence-transformers
 transformers
 chromadb
-openai
+groq
 pandas
 Pillow
 requests
-beautifulsoup4
+duckduckgo-search
 scikit-learn
 torch
 torchvision
 numpy
 tqdm
-lxml
