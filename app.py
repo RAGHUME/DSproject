@@ -536,7 +536,10 @@ if search_clicked:
                     img_col, info_col = st.columns([1, 3])
 
                     with img_col:
-                        img_path = os.path.join(BASE_DIR, item["image_path"]) if item.get("image_path") else ""
+                        raw_path = item.get("image_path", "") or ""
+                        # Normalize backslashes for cross-platform compatibility
+                        raw_path = raw_path.replace("\\", "/")
+                        img_path = os.path.join(BASE_DIR, raw_path) if raw_path else ""
                         if img_path and os.path.exists(img_path):
                             st.image(img_path, use_container_width=True)
                         else:
