@@ -6,7 +6,7 @@ The system semantically understands that *"wireless headphones"* ≈ *"AirPods"*
 
 > **1500+ items** across **17 categories** with real product images and AI-powered explanations.
 
-### 🌐 Live Demo: [dsproject-etk2.onrender.com](https://dsproject-etk2.onrender.com)
+### 🌐 Live Demo: [dsproject-lostfound.streamlit.app](https://dsproject-lostfound.streamlit.app/)
 
 ---
 
@@ -179,13 +179,13 @@ The app will open at **http://localhost:8501** with the dark premium UI.
 
 ---
 
-## 🌐 Deployment (Render)
+## 🌐 Deployment
 
-This app is deployed on **Render** at:
+This app is deployed on **Streamlit Community Cloud** at:
 
-🔗 **[https://dsproject-etk2.onrender.com](https://dsproject-etk2.onrender.com)**
+🔗 **[https://dsproject-lostfound.streamlit.app](https://dsproject-lostfound.streamlit.app/)**
 
-> **Note:** The free Render tier may spin down after inactivity. The first request may take ~30-60 seconds to wake up.
+
 
 ---
 
