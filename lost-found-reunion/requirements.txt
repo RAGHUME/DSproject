@@ -1,0 +1,15 @@
+streamlit
+sentence-transformers
+transformers
+chromadb
+openai
+pandas
+Pillow
+requests
+beautifulsoup4
+scikit-learn
+torch
+torchvision
+numpy
+tqdm
+lxml
